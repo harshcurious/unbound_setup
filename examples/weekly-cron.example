@@ -1,0 +1,2 @@
+# Run the local blocklist update once a week on Sunday at 03:17.
+17 3 * * 0 /absolute/path/to/unbound_setup/scripts/update_blocklist.sh --profile light --zone-name hagezi.local --output-dir /absolute/path/to/unbound_setup/state/generated --state-dir /absolute/path/to/unbound_setup/state

@@ -1,0 +1,8 @@
+server:
+    module-config: "respip validator iterator"
+
+rpz:
+    name: "hagezi.local"
+    zonefile: "/var/lib/unbound/hagezi-rpz.zone"
+    url: "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/rpz/light.txt"
+    for-downstream: no

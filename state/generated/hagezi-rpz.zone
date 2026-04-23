@@ -1,0 +1,7 @@
+$TTL 3600
+@ SOA localhost. root.localhost. 2026042301 14400 3600 86400 3600
+  NS localhost.
+;
+; Sample RPZ
+example.com CNAME .
+*.example.com CNAME .
